@@ -1,0 +1,10 @@
+.grandpa-container, .grandpa-container div {
+    border: 2px solid orangered;
+    padding: 20px;
+    margin: 20px;
+    width: fit-content;
+}
+
+.flex {
+    display: flex;
+}

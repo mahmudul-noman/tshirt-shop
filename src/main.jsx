@@ -13,6 +13,7 @@ import Header from './components/Header/Header';
 import OrderReview from './components/OrderReview/OrderReview';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
+import Grandpa from './components/Grandpa/Grandpa';
 // ============================================================== //
 
 const router = createBrowserRouter([
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
       {
         path: 'contact',
         element: <Contact></Contact>
+      },
+      {
+        path: 'grandpa',
+        element: <Grandpa></Grandpa>
       }
     ]
   }
